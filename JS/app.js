@@ -35,6 +35,13 @@ box1.addEventListener('click', function (event) {
     containerText.appendChild(link);
     box2.appendChild(containerText);
     box2.classList.add("containerStyle");
+    link.classList.add("linkStyle");
+
+    link.addEventListener('click', function (event) {
+    var textArea = document.createElement('textArea');
+    var button2 = document.createElement('button');
+    
+  })
   })
 })
 

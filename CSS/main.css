@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #0174DF;
+  font-family: helvetica;
+}
+header{
+ display: fixed;
+ background-color: #0079bf;
+ padding: 15px;
+}
+img{
+  width: 15%;
+}
+#container{
+  float: right;
+}
+#button1, #button2 {
+  display: inline-block;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+#button1 {
+background-color: #045FB4;
+color: white;
+padding: 13px 18px;
+}
+#button2{
+  background-color: #04B431;
+  color: white;
+  padding: 10px 15px;;
+  font-weight: 900;
+}

@@ -38,6 +38,17 @@ window.addEventListener('load', function(event) {
       link.addEventListener('click', function(event) {
         var textArea = document.createElement('textArea');
         var button2 = document.createElement('button');
+        button2.textContent = 'Añadir';
+        containerText.removeChild(link);
+        containerText.appendChild(textArea);
+        containerText.appendChild(button2);
+        button2.classList.add('buttonStyle');
+        button2.addEventListener('click', function(event) {
+          var text2 = textArea.value;
+          var list = document.createElement('p');
+          list.textContent = text2;
+          containerText.appendChild(list);
+        });
       });
     });
   });

@@ -54,6 +54,7 @@ h3{
   width: 18%;
   padding: 10px;
   border-radius: 5px;
+  border: 2px solid black;
 }
 .buttonStyle{
   background-color: green;
